@@ -46,6 +46,7 @@ html, body{
 .navbar {
     background-color: none !important;
     padding-bottom: 0 !important;
+    user-select: none;
 }
 
 .navbar-light .navbar-brand {
@@ -66,7 +67,7 @@ html, body{
     transition: 0.2s;
 }
 
-.hero {
+.Navbar-All{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -89,13 +90,8 @@ img, svg {
 hr{
     width: 100%;
     height: 1px;
-    margin: 10px !important;
-}
-
-.img{
-    height: 500px;
-    width: 100%;
-    background-color: #000000 !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
 }
 
 .ueli{
@@ -112,4 +108,42 @@ hr{
 
 .navbar-toggler {
     border: var(--bs-border-width) solid rgb(250 250 250 / 10%);
+}
+
+.About-All{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+    color: white;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.img{
+    height: 400px;
+    width: 100%;
+    background-color: #3e3e3e88 !important;
+    border-radius: 10px;
+}
+
+.Footer-All{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding-top: 1.8rem;
+    padding-bottom: 1.8rem;
+    color: white;
+    flex-wrap: wrap;
+    align-content: center;
+    /* width: 100%;  */
+}
+
+.Footer{
+    background-color: white;
+    height: 20px;
+    width: 60vw;
 }
