@@ -14,6 +14,11 @@
     .navi {
         width: 100vw;
     }
+
+    .img {
+        width: 100vw !important; 
+    }
+
     .botoes{
         display: none !important;
     }
@@ -23,17 +28,44 @@
     .navi {
         width: 100vw;
     }
+
+    .img {
+        width: 100vw !important; 
+    }
+
+    .container-fluid {
+        padding-right: .8rem !important;
+        padding-left: .8rem !important;
+    }
 }
 
 @media screen and (min-width: 900px) and (max-width: 1300px) {
     .navi {
         width: 85vw;
     }
+
+    .img {
+        width: 85vw !important; 
+    }
+
+    .container-fluid {
+        padding-right: .8rem !important;
+        padding-left: .8rem !important;
+    }
 }
 
 @media screen and (min-width: 1300px) {
     .navi {
         width: 66vw; 
+    }
+
+    .img {
+        width: 66vw !important; 
+    }
+
+    .container-fluid {
+        padding-right: .8rem !important;
+        padding-left: .8rem !important;
     }
 }
 
@@ -152,4 +184,8 @@ hr{
 .Name{
     padding-left: 9px;
     margin-top: 3px;
+}
+
+.Last-Botoes{
+    margin: 0 !important;
 }
